@@ -20,7 +20,7 @@ iconeenigme Mat[2][2];
 }enigme;
 void initialiserEnigme(enigme dynamique);
 void afficheEnigme(enigme dynamique);
-void resoudreEnigme(enigme dynamique);
-void gestionDuTempsEnigme(enigme dynamique);
-void generationAleatoirEnigme(enigme dynamique);
+void resoudreEnigme(enigme *dynamique);
+void gestionDuTempsEnigme(enigme *dynamique);
+void generationAleatoirEnigme(enigme *dynamique);
 #endif
